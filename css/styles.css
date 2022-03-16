@@ -1,0 +1,52 @@
+.static {
+
+}
+
+.relative {
+    background-color: #81c476;
+    position: relative;
+    /*empuja las posiciones*/
+    top: 40px;
+    left: 100px;
+}
+
+.absolute {
+    background-color: #fc9191;
+    position: absolute; /*abarca solo el tamaño del contenido*/
+    /* mueve las posiciones*/
+    top: 0; 
+    left: 50%;
+}
+
+.container{
+
+}
+
+
+.cuadro1{
+    width: 100px;
+    height: 100px ;
+    background-color: #000000;
+    position: absolute;
+    border: 10px solid red;
+
+}
+
+.cuadro2{
+    width: 100px;
+    height: 100px ;
+    background-color: #000000;
+    position: relative;
+    left: 180px;
+    border: 10px solid red;
+}
+
+.cuadro3{
+    width: 100px;
+    height: 100px ;
+    background-color: #f0afaf;
+    position: absolute;
+    left: 95px;
+    top: 150px;
+    border: 10px solid #eb8585;
+}
